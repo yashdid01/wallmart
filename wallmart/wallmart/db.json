@@ -1,0 +1,262 @@
+{
+      "laptop":[{
+        "productId":1,
+           "title" : "HP Pavilion Laptop  ",
+           "price"   : 75000,
+           "image" : "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07961089.png"
+     
+     },
+    {
+        "productId":2,
+           "title" : "Dell Latitude 3420 Laptop",
+           "price"   : 34999,
+           "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZTZapUS7SewKFszCb-Jw_H56Qj_ssWXeFHA&usqp=CAU"
+     
+     },
+    {
+        "productId":3,
+           "title" : "MacBook Pro 16",
+           "price"   : 175000,
+           "image" : "https://i1.wp.com/maplestore.in/wp-content/uploads/2020/04/macbook-pro-16_2.6GHz-6-core_9th-Gen-i7_512GB_Space-Grey_1.png?fit=500%2C500&ssl=1"
+     
+     },
+    {
+        "productId":4,
+           "title" : "Asus ROG Strix G (2019) Gaming Laptop",
+           "price"   : 41399,
+           "image" : "https://m.media-amazon.com/images/I/811QpiYXe-L._AC_SL1500_.jpg"
+     
+     },
+    {
+        "productId":5,
+           "title" : "Lenovo IdeaPad 5G | 5G Laptop ",
+           "price"   : 39999,
+           "image" : "https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8Mjg5MTI0fGltYWdlL3BuZ3xoMGIvaDQxLzExMDQxMzExMjkzNDcwLnBuZ3w5YTQxMzJhNzc4NTlmZDA0ODEzMTIxY2MzOGI5OThjOTNmYjU3ZjQxYmZjMDdlMzFlNTFmMTFkNzJlNzU3MzQx/lenovo-laptop-ideapad-5g-hero.png"
+     
+     },
+    {
+        "productId":6,
+           "title" : "Acer Aspire 3 Laptop Intel Core I5 11th Gen",
+           "price"   : 73999,
+           "image" : "https://www.sathya.in/media/75711/catalog/aspire-3-a315-58-fp-primary_image_2.png"
+     
+     }],
+     
+    
+    
+        "mobile":[{
+          "productId":1,
+             "title" : "Oppo A15S (Dynamic Black, 4GB RAM, 64GB Storage)",
+             "price"   : 25000,
+             "image" : "https://m.media-amazon.com/images/I/71SvV17lq-L._SX425_.jpg"
+       
+       },
+      {
+          "productId":2,
+             "title" : "Oppo A15S (Dynamic Black, 4GB RAM, 64GB Storage)",
+             "price"   : 34999,
+             "image" : "https://cdn.bigcmobiles.com/catalog/product/cache/19ca3e0104a9a59dacaf034c7066559f/s/i/silver_1_10_12.jpg"
+       
+       },
+      {
+          "productId":3,
+             "title" : "Apple iPhone 12",
+             "price"   : 105000,
+             "image" : "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+       
+        },
+      {
+          "productId":4,
+             "title" : "Samsung Galaxy Note 10+",
+             "price"   : 41399,
+             "image" : "https://m.media-amazon.com/images/I/71G1FCIP1EL._SX385_.jpg"
+       
+       },
+      {
+          "productId":5,
+             "title" : "OnePlus Nord 2T 5G",
+             "price"   : 39999,
+             "image" : "https://cdn1.smartprix.com/rx-i82VOTiAQ-w1200-h1200/82VOTiAQ.jpg"
+       
+       },
+      {
+          "productId":6,
+             "title" : "Redmi 9A Sport Coral Green. 3GB+32GB",
+             "price"   : 13999,
+             "image" : "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1632717155.68085426.jpg"
+       
+       }], 
+      
+        "TV":[{
+          "productId":1,
+             "title" : "Samsung Crystal Display 4K UltraHD Smart TV - TU7000",
+             "price"   : 35000,
+             "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uyKHrG9ielBLJ71G77KERpwHeN7a7S22-g&usqp=CAU"
+       
+       },
+      {
+          "productId":2,
+             "title" : "Smart TVs An immersive theater-like experience at your home!",
+             "price"   : 24999,
+             "image" : "https://micromaxinfo.com/pub/media/catalog/category/Smart-TV_Banner_1.png"
+       
+       },
+      {
+          "productId":3,
+             "title" : "OnePlus Y1S Pro 43 inch Ultra HD 4K Smart LED TV",
+             "price"   : 65399,
+             "image" : "https://cdn1.smartprix.com/rx-iBKCrHI7G-w1200-h1200/BKCrHI7G.jpg"
+       
+       },
+      {
+          "productId":4,
+             "title" : "Jvc Televisions",
+             "price"   : 41399,
+             "image" : "https://rukminim1.flixcart.com/image/312/312/k1s6ljk0/television/g/7/h/jvc-lt-32n280co-lt-32n280co-original-imafh9t2gmfz7qqe.jpeg?q=70"
+       
+       },
+      {
+          "productId":5,
+             "title" : "The Best TV Brands of 2022 - Bob Vila",
+             "price"   : 39999,
+             "image" : "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2021/07/The-Best-TV-Brand-Option-Sony.jpg"
+       
+       },
+      {
+          "productId":6,
+             "title" : "LG LED TV",
+             "price"   : 49999,
+             "image" : "https://4.imimg.com/data4/DP/VX/MY-17088056/lg-led-tv-500x500.jpg"
+       
+       }],
+        "Books":[{
+          "productId":1,
+             "title" : "The Doors of Eden", 
+             "price"   : 555,
+            "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781509865888.jpg"
+       
+       },
+      {
+          "productId":2,
+             "title" : "Children of Time by Adrian Tchaikovsky ",
+             "price"   : 255,
+            "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781447273301.jpg"
+       
+       },
+      {
+          "productId":3,
+             "title" : "The Hitchhiker’s Guide to Galaxy by Douglas Adams", 
+             "price"   : 345,
+            "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781529034523.jpg"
+      },
+      {
+          "productId":4,
+             "title" : "Stories of Your Life and Others by Ted Chiang",
+             "price"   : 745,
+            "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781529039436.jpg"
+      },
+      {
+          "productId":5,
+             "title" : "A Memory Called Empire by Arkady Martine",
+             "price"   : 920,
+            "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781529001594.jpg"
+      },
+      {
+          "productId":6,
+             "title" : "Dark Matter by Blake Crouch", 
+             "price"   : 805,
+             "image" : "https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781447297581.jpg"
+        }],
+    
+    
+    
+     "Blazer":[{
+          "productId":1,
+             "title" : "M 27 MEN'S SLIM FIT CASUAL BLAZER",
+             "price"   : 14999,
+             "image" : "http://cdn.shopify.com/s/files/1/2403/2127/products/pastelgreen1_1200x1200.jpg?v=1591529587"
+       
+       },
+      {
+          "productId":2,
+             "title" : "Fashiola.in Check new Blazers for Men",
+             "price"   : 19999,
+             "image" : "https://cdn.fashiola.in/L76745635/marc-darcy-eton-navy-check-blazer-mens-34-chest.jpg"
+       
+       },
+      {
+          "productId":3,
+             "title" : "Sale Brand Mens Suit Jacket Formal Business Blazer",
+             "price"   : 35399,
+             "image" : "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/7741/70731/Sale-Brand-Mens-Suit-Jacket-Formal-Business-Blazer-Men-Groom-Three-Pieces-Slim-Fit-Party-Clothing__26340.1527764050.jpg?c=2?imbypass=on"
+       
+       },
+      {
+          "productId":4,
+             "title" : "Oversized blazer in the black",
+             "price"   : 10399,
+             "image" : "https://cdn.outfitbook.fr/24378-thickbox_default/oversized-blazer-in-black.jpg"
+       
+       },
+      {
+          "productId":5,
+             "title" : "Over time, blazers have evolved and adapted to the times.",
+             "price"   : 29999,
+             "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZIxqahIBW3m4GXS8ycWvzW8tSVj4nMxw_w&usqp=CAU"
+       
+       },
+      {
+          "productId":6,
+             "title" : "Camel 3 button wool blend Woman Suit - relaxed fit",
+             "price"   : 19999,
+             "image" : "https://assets.vogue.in/photos/5d5a710a6bda97000860eb6e/master/w_1600%2Cc_limit/Meghan%2520Markle.jpg"
+       
+       }],
+    
+      "Furniture":[{
+          "productId":1,
+             "title" : "BM Wood Furniture™ Sheesham Wood Rectangular Wooden Dining Set", 
+             "price"   : 7555,
+            "image" : "https://m.media-amazon.com/images/I/61IHi71wKNL._SX425_.jpg"
+       
+       },
+      {
+          "productId":2,
+             "title" : "HATIL: Modern Furniture Crafted with Elegance ",
+             "price"   : 87255,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2smARe-PE-7RDgHzhxHENJRfUFbVjkNuVwQ&usqp=CAU"
+       
+       },
+      {
+          "productId":3,
+             "title" : "Furniture | Esty", 
+             "price"   : 5345,
+            "image" : "https://i.etsystatic.com/10463203/c/600/600/213/0/il/94535c/1511660636/il_300x300.1511660636_33ec.jpg"
+      },
+      {
+          "productId":4,
+             "title" : "Furniture - Best Modern Home Furniture Store |",
+             "price"   : 2745,
+            "image" : "https://cb.scene7.com/is/image/Crate/cb_mSP_20210103_Furniture_AccentChairs_v2?wid=707&qlt=75&op_sharpen=1"
+      },
+      {
+          "productId":5,
+             "title" : "5 Hot Outdoor-Furniture Trend",
+             "price"   : 6920,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalDeXGVUGvTSF2cNNmy3MKeOztw6XmSpQhQ&usqp=CAU"
+      },
+      {
+          "productId":6,
+             "title" : "Home Furniture for Every Budget", 
+             "price"   : 11805,
+             "image" : "https://static.athome.com/image/upload/f_auto,q_auto,fl_progressive:steep/v1634583583/webcontent/LPTaxonomyproject/Furniture/FY22_WK34_LP_Furniture-M.png"
+        }]}
+    
+    
+    
+    
+    
+    
+    
+    
+      

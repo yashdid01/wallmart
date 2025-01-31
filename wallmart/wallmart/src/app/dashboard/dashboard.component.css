@@ -1,0 +1,80 @@
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 240px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .searchBox{
+    margin: auto;
+    width: 85%;
+  }
+
+  .btn-outline-warning{
+    background-color: rgb(250, 172, 26);
+    color: white;
+  }
+  
+  .homeContainer{
+    padding: 1rem;
+}
+
+#cardsSection{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.card{
+    margin: 1rem;
+    border-radius: 15px;
+    transition: transform .3s;
+}
+
+.card:hover{
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
+
+
+.overlay{
+  display: block;
+  position: absolute;
+  width: 7px;
+  color: red;
+}
+
+
+.material-symbols-outlined{
+  position: absolute;
+  margin-left: 12.5rem;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:hover{
+  color: red;
+}
+
+
+.buynowbutton{
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+  #cardsSection{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}

@@ -1,0 +1,56 @@
+
+
+<div class="row">
+  <div class="container mb-5 px-3 col-lg-6 clo-md-6 col-sm-12">        
+      <form [formGroup]="formGroup" (submit)="onLogin()"novalidate style="margin: auto; width:100%;" class="mt-5 px-4 py-5">
+          <h1>Login</h1>            
+          <div class="mb-3">
+            <label for="InputEmail" class="form-label">User Name</label>
+            <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Username"[class.is-valid]="(formGroup.controls.email?.dirty
+            ||formGroup.controls.email?.touched)&&formGroup.controls.email?.valid"
+        [class.is-invalid]="(formGroup.controls.email?.dirty
+        ||formGroup.controls.email?.touched)&& formGroup.controls.email?.invalid">
+  
+            <div *ngIf="!formGroup.controls.email?.valid && (formGroup.controls.email?.dirty
+            ||formGroup.controls.email?.touched)">
+              <small class="text-danger" [hidden]="formGroup.hasError('required')">
+                *This field is required.
+              </small>
+  
+              <small class="text-danger"[hidden]="formGroup.hasError('pattern')">
+                *Incorrect Email id
+              </small>
+          </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="InputPassword" class="form-label">Password</label>
+            <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" [class.is-valid]="(formGroup.controls.password?.dirty
+            ||formGroup.controls.password?.touched)&&formGroup.controls.password?.valid"
+        [class.is-invalid]="(formGroup.controls.password?.dirty
+        ||formGroup.controls.password?.touched)&& formGroup.controls.password?.invalid">
+            <div *ngIf="!formGroup.controls.password?.valid && (formGroup.controls.password?.dirty
+            ||formGroup.controls.password?.touched)">
+            <div class="text-danger" *ngIf="formGroup.controls.password.errors?.required">
+              *This field is required.
+            </div>
+            
+          </div>
+          </div>
+          
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1" >Remember Me</label>
+          </div>
+          <button id="register"  [disabled]="formGroup.invalid"  type="submit" class="btn btn-primary" style="width: 100%;">Login</button>
+          <br>
+          <br>
+
+          <button id="register" type="submit" routerLink="/register" class="btn btn-warning" style="width: 100%;">Click Here to Register</button>
+        </form>
+      </div>
+    </div>
+
+
+    
+    

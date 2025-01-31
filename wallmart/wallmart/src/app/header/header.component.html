@@ -1,0 +1,18 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(165, 13, 253);">
+    <div class="container-fluid">
+      <a  routerLink="/"class="navbar-brand mb-0 h1">
+        <h4 id="logo">Walmart</h4>
+      </a>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        
+        <button type="submit" *ngIf="this.login_status"  routerLink="/wishlist" style="border: solid black;" class="btn btn-warning">wishlist</button>
+        
+        <button type="submit" *ngIf="!this.login_status"  routerLink="/register" style="border: solid black;" class="btn btn-warning">Register</button>
+
+        <button type="submit" *ngIf="this.login_status" routerLink="#" style="border: solid black;" class="btn btn-warning" (click)="Logout()">Logout</button>
+        <button type="submit" *ngIf="!this.login_status"  routerLink="/login" style="border: solid black;" class="btn btn-warning">Login</button>
+      </div>
+    </div>
+</nav>

@@ -1,0 +1,156 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(165, 13, 253);">
+  <div class="container-fluid">
+    <form class="d-flex searchBox">
+      <input class="form-control me-2" type="search" #search placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-warning me-3" (click)="onSearch(search.value)" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+  <div id="cardsSection">
+
+      <div class="container homeContainer">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div  *ngFor="let p of this.products" class="card" style="width: 18rem;">
+              <img src="{{p.image}}" class="card-img-top" alt="Image">
+              <div class="card-body">
+                <span class="material-symbols-outlined" (click)="addToWishlist(p)">
+                  favorite
+                  </span>
+                <h5 class="card-title">{{p.title}}</h5>
+                
+                <div class="Price_And_Buy_Button">
+                  <h4 id="priceTag">{{p.price}}</h4>
+                <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                  
+                </div>   
+              </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                  <img src="https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy" class="card-img-top" alt="Image">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                    <h5 class="card-title">Laptop</h5>
+                    <p class="card-text">Lenovo BQIN IdeaPad 5 Laptop  39.62 cm (15.6 inch)</p>
+                    <div class="Price_And_Buy_Button">
+                      <h4 id="priceTag">Rs 39400</h4>
+                    <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                    </div>   
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://m.media-amazon.com/images/I/71SvV17lq-L._SX425_.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">Mobile</h5>
+                      <p class="card-text">
+                        Oppo A15S (Dynamic Black, 4GB RAM, 64GB Storage</p>
+                      <h4 id="priceTag">Rs 24500</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://ii1.pepperfry.com/media/catalog/product/r/o/800x880/royal-wing-chair-in-blue-colour-by-dreamzz-furniture-royal-wing-chair-in-blue-colour-by-dreamzz-furn-pitcjr.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">Sofa</h5>
+                      <p class="card-text">Royal Wing Chair in Blue Colour | Offer ends soon. No cost EMI. Gift Cards Available.</p>
+                      <h4 id="priceTag">Rs 1999</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://m.media-amazon.com/images/I/71HcZHyEsTL._SL1500_.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">LED TV</h5>
+                      <p class="card-text">Redmi 80 cm (32 inches) Android 11 Series HD Ready Smart LED TV </p>
+                      <h4 id="priceTag">Rs 21000</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://static.connect2india.com/c2icd/product_resources/images/wooden-gifts-items.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">Clock</h5>
+                      <p class="card-text">Wooden Gifts Items.   The avg. market price of Wooden Gifts Items in India is Rs 66/ Piece.</p>
+                      <h4 id="priceTag">Rs 64</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.mytailorstore.com/image/cache/catalog/jacketandblazers/8040-men-mens-blazer-jacket-blaser-slim-short-men-525x700.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">Blazer</h5>
+                      <p class="card-text">Short casual and elegant single breasted jacket with one button with a discreet detail</p>
+                      <h4 id="priceTag">Rs 7999</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://m.media-amazon.com/images/I/61Ef73KUOBS._AC_SL1500_.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">Smart Watch</h5>
+                      <p class="card-text"> Package 1 SMART WATCH 1 USB CHARGING CABLE 1 USER MANUAL Model Number T500</p>
+                      <h4 id="priceTag">Rs 3999</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                  <img src="http://cdn.shopify.com/s/files/1/0057/8938/4802/products/e5881832-36f8-4c1c-a767-10f2c2a55a02.png?v=1625046573" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <span class="material-symbols-outlined">
+                      favorite
+                      </span>
+                      <h5 class="card-title">BoAt Rockerz</h5>
+                      <p class="card-text"> boAt Rockerz 370 is a wireless headset that has been ergonomically designed</p>
+                      <h4 id="priceTag">Rs 2499</h4>
+                      <a href="#" class="btn btn-warning buynowbutton">Buy Now</a>
+                      
+                  </div>
+                </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      

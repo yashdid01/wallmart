@@ -1,0 +1,27 @@
+      <div class="Wishlist_container ">
+        <h1 style="text-align: center;">Wishlist</h1>
+        <hr>
+          <div *ngFor="let product of products " class="container-fluid">
+              <div class="card mb-3 " style=" max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{product.image}}" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">{{product.title|slice:0:10}}</h5>
+                        
+                        <p class="card-text">{{product.title}}</p>
+                        <div class="shake-chunk">
+                        <span (click)="deleteProduct(product)" class="material-symbols-outlined" style="cursor: pointer;">
+                            delete
+                            </span>
+                          </div>    
+                        <p class="card-text"><small class="text-muted"> <b> Price:${{product.price}}   </b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+  
